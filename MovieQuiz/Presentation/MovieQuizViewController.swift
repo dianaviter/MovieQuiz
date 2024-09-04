@@ -97,7 +97,6 @@ final class MovieQuizViewController: UIViewController {
         showAnswer(answer: true)
     }
     
-    
     @IBAction private func noButtonClicked(_ sender: UIButton) {
         showAnswer(answer: false)
     }
@@ -161,5 +160,3 @@ final class MovieQuizViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
 }
-
-
